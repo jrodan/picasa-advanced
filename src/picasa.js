@@ -160,6 +160,8 @@ function getPhotos (accessToken, options, callback) {
     var photos;
     
     if (!body.feed.entry) {
+      console.log("No Entry");
+      console.log(body.feed);
       photos = [];
     } else {
       photos = body.feed.entry.map(
