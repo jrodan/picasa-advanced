@@ -157,9 +157,13 @@ function getPhotos (accessToken, options, callback) {
   this.executeRequest('get', requestOptions, (error, body) => {
     if (error) return callback(error)
 
-    const photos = body.feed.entry.map(
-      entry => parseEntry(entry, photoSchema)
-    )
+    if (!body.feed.entry) {
+      const photos = [];
+    } else {
+      const photos = body.feed.entry.map(
+        entry => parseEntry(entry, photoSchema)
+      )
+    }
 
     callback(null, photos)
   })
