@@ -1,5 +1,5 @@
 {
-  "name": "picasa",
+  "name": "picasa-advanced",
   "version": "1.0.2",
   "description": "Picasa web albums client for node",
   "main": "src/picasa.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/esteban-uo/picasa.git"
+    "url": "git+https://github.com/jrodan/picasa.git"
   },
   "keywords": [
     "picasa",
@@ -21,12 +21,12 @@
     "client",
     "node"
   ],
-  "author": "Esteban Uscanga Olea <uscanga47@gmail.com> (https://github.com/esteban-uo)",
+  "author": "Jan Rodan <kontakt@janrodan.de> (https://github.com/jrodan)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/esteban-uo/picasa/issues"
+    "url": "https://github.com/jrodan/picasa/issues"
   },
-  "homepage": "https://github.com/esteban-uo/picasa#readme",
+  "homepage": "https://github.com/jrodan/picasa#readme",
   "devDependencies": {
     "chai": "^3.4.1",
     "mocha": "^2.3.3",
