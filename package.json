@@ -1,6 +1,6 @@
 {
   "name": "picasa-advanced",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Picasa web albums client for node",
   "main": "src/picasa.js",
   "scripts": {
